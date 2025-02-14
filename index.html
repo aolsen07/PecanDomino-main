@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Valentine's Question</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <div class="form-container">
+            <form id="form1" action="" style="display: visible;">
+                <label for="name">Hey There! What's your name?</label>
+                <input type="text" id="name" placeholder="Alexander">
+
+                <button id="question1">Give Name</button>
+            </form>
+        </div>
+
+
+        <div class="form-container">
+            <form id="form2" style="display: none;">
+                <h2>
+                    woah...<span id="crush"></span>? that's my crush's name!
+                </h2>
+                <label for="favColor">erm; by chance, what's your favorite color?</label>
+                <div class="radio-option">
+                    <input type="radio" id="berry" name="favColor" value="berry" checked>
+                    <label for="berry">Berry</label><br>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" id="fig" name="favColor" value="fig">
+                    <label for="fig">Fig</label><br>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" id="pink" name="favColor" value="pink">
+                    <label for="pink">Pink</label><br>
+                </div>
+                <div class="radio-option">
+
+                    <input type="radio" id="brat-green" name="favColor" value="brat-green">
+                    <label for="brat-green">brat green</label>
+                </div>
+                <button id="question2">i like this one :3</button>
+            </form>
+        </div>
+
+        <div class="form-container">
+            
+            <form id="form3" style="display: none;">
+                <h3>
+                    hold on i'll be right back,,,,,
+                </h3>
+                <label for="friend">which friend do you choose?</label>
+                <div class="radio-option">
+                    <input type="radio" id="snoopy" name="friend" value="snoopy">
+                    <label for="snoopy">snoopy<br>
+                        <img id="snoopy-img" src="images/snoopycupid.jpg" alt="" srcset=""></label>
+
+                </div>
+                <div class="radio-option">
+                    <input type="radio" id="smiski" name="friend" value="smiski">
+                    <label for="smiski">smiski<br>
+                        <img id="smiski-img" src="images/38d167e25945e3fb1b31701d34dcd1de.jpg" alt=""></label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" id="slimey" name="friend" value="slimey">
+                    <label for="slimey">slimey<br>
+                        <img id="slimey-img" src="images/slimey.jpg" alt=""></label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" id="jotchua" name="friend" value="jotchua">
+                    <label for="jotchua">Jotchua<br>
+                        <img id="jotchua-img" src="images/zeepzorp.jpg" alt=""></label>
+                </div>
+                <button id="question3">he's the cutest</button>
+            </form>
+        </div>
+
+
+        <img id="friend-choice" src="images/snoopycupid.jpg" alt="" style="display:none;">
+
+        <div class="form-container">
+            <form id="form4" style="display: none;">
+                <h3>hey there <span id="crush2"></span>, it's me, <span id="friend-output"></span>! 
+                <button id="question4">hi!!!</button>
+            </form>
+        </div>
+
+        <div class="form-container">
+            <form id="form5" style="display: none;">
+                <h3>my friend Alexander has a little crush on you, and tells me that you're funny and pretty witty too...</h3>
+                <button id="question5">yep mhm ok</button>
+            </form>
+            
+        </div>
+
+        <div id="page6" style="display: none;">
+            <h3 id="page6-question">and he thinks it would be pretty awesome if you could be his valentine?</h2>
+                <button id="accepting">yes! yes! a million times yes!</button> <button id="rejecting">um, no
+                    thanks...</button>
+        </div>
+
+        <div id="page7" style="display: none;">
+            <h3>yippee! congrats! i'll celebrate with the guys!</h3>
+            <h1>happy valentine's day!!! <3</h1>
+    </div>
+
+    <script src="script.js">
+        <p>Get JavaScript plz :/</p>
+    </script>
+</body>
+
+</html>
